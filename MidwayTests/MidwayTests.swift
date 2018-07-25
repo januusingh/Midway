@@ -2,8 +2,8 @@
 //  MidwayTests.swift
 //  MidwayTests
 //
-//  Created by Aditya Gunda on 11/12/16.
-//  Copyright © 2016 Aditya Gunda. All rights reserved.
+//  Created by Jahnavi Singh on 04/12/18.
+//  Copyright © 2018 Jahnavi Singh. All rights reserved.
 //
 
 import XCTest

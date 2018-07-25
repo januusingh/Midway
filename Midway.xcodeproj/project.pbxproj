@@ -14,6 +14,9 @@
 		043FD4C01DD7A96500D7979D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043FD4BE1DD7A96500D7979D /* LaunchScreen.storyboard */; };
 		043FD4CB1DD7A96500D7979D /* MidwayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FD4CA1DD7A96500D7979D /* MidwayTests.swift */; };
 		043FD4D61DD7A96500D7979D /* MidwayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FD4D51DD7A96500D7979D /* MidwayUITests.swift */; };
+		BF17FBB54303BD7EC5FD5EBC /* Pods_MidwayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D58090C24019560348A2C5D2 /* Pods_MidwayUITests.framework */; };
+		CAF763B138C36BA9CC3D6BBD /* Pods_Midway.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5369D094E9F1C6ED423569 /* Pods_Midway.framework */; };
+		F845BCF85BC3E6FD6713DDE5 /* Pods_Midway_MidwayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C204612C99D38E9E6D1606F9 /* Pods_Midway_MidwayTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		043FD4D11DD7A96500D7979D /* MidwayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidwayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		043FD4D51DD7A96500D7979D /* MidwayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidwayUITests.swift; sourceTree = "<group>"; };
 		043FD4D71DD7A96500D7979D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C204612C99D38E9E6D1606F9 /* Pods_Midway_MidwayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Midway_MidwayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5369D094E9F1C6ED423569 /* Pods_Midway.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Midway.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58090C24019560348A2C5D2 /* Pods_MidwayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MidwayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF763B138C36BA9CC3D6BBD /* Pods_Midway.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F845BCF85BC3E6FD6713DDE5 /* Pods_Midway_MidwayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF17FBB54303BD7EC5FD5EBC /* Pods_MidwayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,7 @@
 				043FD4C91DD7A96500D7979D /* MidwayTests */,
 				043FD4D41DD7A96500D7979D /* MidwayUITests */,
 				043FD4B31DD7A96500D7979D /* Products */,
+				87F0551E5E3E4A8419A25952 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +135,16 @@
 			path = MidwayUITests;
 			sourceTree = "<group>";
 		};
+		87F0551E5E3E4A8419A25952 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF5369D094E9F1C6ED423569 /* Pods_Midway.framework */,
+				C204612C99D38E9E6D1606F9 /* Pods_Midway_MidwayTests.framework */,
+				D58090C24019560348A2C5D2 /* Pods_MidwayUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +152,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 043FD4DA1DD7A96500D7979D /* Build configuration list for PBXNativeTarget "Midway" */;
 			buildPhases = (
+				0CAA0EDA3AD14CF29019A5F9 /* [CP] Check Pods Manifest.lock */,
 				043FD4AE1DD7A96500D7979D /* Sources */,
 				043FD4AF1DD7A96500D7979D /* Frameworks */,
 				043FD4B01DD7A96500D7979D /* Resources */,
+				9FAB731D8146DC979ABE3CDE /* [CP] Embed Pods Frameworks */,
+				CFCA4F2AE3D7D2BC3EFF9C13 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 043FD4DD1DD7A96500D7979D /* Build configuration list for PBXNativeTarget "MidwayTests" */;
 			buildPhases = (
+				045C56A0E4A0FAE9F94BC83F /* [CP] Check Pods Manifest.lock */,
 				043FD4C21DD7A96500D7979D /* Sources */,
 				043FD4C31DD7A96500D7979D /* Frameworks */,
 				043FD4C41DD7A96500D7979D /* Resources */,
+				8F75A0BDA26F02B507B8B3E7 /* [CP] Embed Pods Frameworks */,
+				501B934E3FEF769CCDCD7A4B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 043FD4E01DD7A96500D7979D /* Build configuration list for PBXNativeTarget "MidwayUITests" */;
 			buildPhases = (
+				5D60FB304EBA339430DF193E /* [CP] Check Pods Manifest.lock */,
 				043FD4CD1DD7A96500D7979D /* Sources */,
 				043FD4CE1DD7A96500D7979D /* Frameworks */,
 				043FD4CF1DD7A96500D7979D /* Resources */,
+				6EE211CD3A30D5B495B9490E /* [CP] Embed Pods Frameworks */,
+				F2B22CC9D3687E0914393C35 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +282,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		045C56A0E4A0FAE9F94BC83F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0CAA0EDA3AD14CF29019A5F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		501B934E3FEF769CCDCD7A4B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Midway-MidwayTests/Pods-Midway-MidwayTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D60FB304EBA339430DF193E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6EE211CD3A30D5B495B9490E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MidwayUITests/Pods-MidwayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F75A0BDA26F02B507B8B3E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Midway-MidwayTests/Pods-Midway-MidwayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FAB731D8146DC979ABE3CDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Midway/Pods-Midway-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFCA4F2AE3D7D2BC3EFF9C13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Midway/Pods-Midway-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2B22CC9D3687E0914393C35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MidwayUITests/Pods-MidwayUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		043FD4AE1DD7A96500D7979D /* Sources */ = {
@@ -505,6 +672,7 @@
 				043FD4DC1DD7A96500D7979D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		043FD4DD1DD7A96500D7979D /* Build configuration list for PBXNativeTarget "MidwayTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +681,7 @@
 				043FD4DF1DD7A96500D7979D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		043FD4E01DD7A96500D7979D /* Build configuration list for PBXNativeTarget "MidwayUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +690,7 @@
 				043FD4E21DD7A96500D7979D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
